@@ -257,7 +257,6 @@ var fileController = {
     var oldPath = fileInfo.filePath;
     var newPath = fileInfo.newPath;
     var fileStructureForRes;
-    console.log('fileInfo in moveFileInProject: ', fileInfo);
     /**
      * get and save file contents at the current location (before we start changing things)
      */
